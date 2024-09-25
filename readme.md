@@ -1,2 +1,2 @@
 Author: Jovoni Johnson
-Purpose of Project: final project
+Purpose of Project: Final project
