@@ -1,5 +1,7 @@
 /* This is Jovoni Johnsons css for Module 6 */
 body{
+    background-image: url(images/dragon2.avif);
+
     background-color: rgb(8, 1, 0);
     color: rgb(241, 23, 3);
 }
