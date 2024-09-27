@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <title>
-        Home
+        Reviews
     </title>
 </head>
 <body>
@@ -21,7 +21,7 @@
                 <li>
                    
                     <a href="portfolio.html">
-                        portfolio
+                        Portfolio
                     </a>
                 </li>
                 <li>
@@ -75,43 +75,115 @@
         </nav>
     </header>
    <main>
-    <br>
-        <div class="homenav">
-            <ul>
-                <li>
-                    <a href="#history">
-                        History
-                    </a>
-                </li>
-    
-                <li>
-                    
-                    <a href="#mission">
-                        Mission
-                    </a>
-                </li>
-                   
-                <li>
-                    
-                    <a href="#vision">
-                        Vision
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <!--Added History Missions and Vision-->
-<section id="reviews">
-    <h1>
-        These are our reviews
-    </h1>
-    <p>
-        These are our assessments for dungeon dragon's
-    </p>
-    </section>
     <section>
+        <h2>
+            Our Reviews
+        </h2>
+        <h3>
+            John Yotti
+        </h3>
+        <h4>
+            jyotti@gmail.com
+        </h4>
+        <p>
+            This website is fine like wine measured in time
+            we sent an awesome newsletter for a discount code
+        </p>
+        <img src="images/dragonreviews.jpg" alt="Family with dragon products">
+       
+        <h3>
+            Gal Yotti
+        </h3>
+        <h4>
+            Gyotti@gmail.com
+        </h4>
+        <p>
+            I always wanted to be in the dungeon
+        </p>
+        
+        <h3>
+            Don Potti
+        </h3>
+        <h4>
+            dpotti@gmail.com
+        </h4>
+        <p>
+           My kids love your dragon toys
+        </p>
+        <img src="images/dragonreviews2.jpg" alt="Family with dragon products">
+       
+        <h3>
+            Bal Dotti
+        </h3>
+        <h4>
+            bdotti@gmail.com
+        </h4>
+        <p>
+            This website is perfect for my life.
+        </p>
         
     </section>
-    <br>
+    <section>
+        <h2>
+            Would you like to endorse us?
+        </h2>
+        <form action="/submit" method="post">
+                <!-- Label and text input field -->
+            <label for="name">
+                Name:
+            </label>
+            <input type="text" name="name" id="name" placeholder="Enter your Name">
+            <br>
+            <!-- adds a line break-->
+        <!-- Label and email input field-->
+        <label for="email">
+            Email:
+        </label>
+        <input type="email" id="email" name="email" placeholder="exmple@exmple.com">
+        <br>
+        <!-- Checkbox for newsletter subscription -->
+        <label for="subscribe">
+            Subscribe to newsletter
+        </label>
+        <input type="checkbox" name="subscribe" id="subscribe" value="yes">
+        <br>
+        <br>
+        <!-- Text area for additional comments -->
+        <label for="comments">
+            comments
+        </label>
+            <!-- This creates the comment box-->
+        <textarea name="comments" id="comments" rows="4" cols="50">
+        
+        </textarea>
+        <br>
+        <!-- File input for uploading files -->
+        <label for="file">
+            Upload your photo
+        </label>
+        <input type="file" name="file" id="file">
+        <br>
+        <!-- Hidden input field (not visible to users) -->
+        <input type="hidden" name="userId" id="userId" value="12345">
+        <br>
+        <!-- Date input for selecting a date -->
+        <label for="birthdate">
+            Birth Date:
+        </label>
+        <input type="date" name="birthdate" id="birthdate">
+        <br>
+        <!-- Color input for selecting a color -->
+        <label for="favcolor">
+            Favorite Color:
+        </label>
+        <input type="color" name="favcolor" id="favcolor">
+        <br>
+        <!-- Submit button to submit the form -->
+        <input type="submit" value="submit">
+        <!-- Reset button to reset the form fields -->
+        <input type="reset" value="reset">
+    </form>
+    </section> 
     </main>
     <footer>
         <p>
